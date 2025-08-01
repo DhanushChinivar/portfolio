@@ -9,26 +9,14 @@ interface ExperienceItem {
 }
 
 const experiences: ExperienceItem[] = [
+
   {
-    title: "Cloud Support Associate Intern",
-    company: "Amazon Web Services Inc",
-    period: "May 2024 — Aug 2024",
-    description: "Worked on designing and implementing AWS-based solutions using services like S3, IAM, Load Balancers, Rekognition, and CloudFront.",
-    skills: ["AWS", "Python", "Terraform", "Azure DevOps", "Postman"]
-  },
-  {
-    title: "IT Technical Support (Student Lead)",
-    company: "University of North Carolina Charlotte",
-    period: "Aug 2023 — April 2024",
-    description: "Provided technical support for networking, software, and AV equipment.",
-    skills: ["Networking", "Technical Support", "Team Leadership"]
-  },
-  {
-    title: "Software Test Automation Engineer",
-    company: "Siemens Technology and Services Pvt Ltd",
-    period: "Apr 2022 — Jul 2023",
-    description: "Developed automation scripts using Ranorex and worked on digital twin technologies for manufacturing solutions.",
-    skills: ["Ranorex", "C#", "Digital Twin", "Data Analysis"]
+    title: "Teaching Assistant",
+    company: "Code Camp",
+    period: "April 2025 — Present",
+    description: ["Introducing kids to the world of coding and exploring the incredible creativity of their young minds"
+    ],
+    skills: []
   },
   {
     title: "Application Developer Intern",
@@ -51,7 +39,7 @@ const experiences: ExperienceItem[] = [
       "Automated batch scripts to cut development time by 85%.",
       "Revamped UI for ADC, Pin Manager, and PTG modules with a 200% usage increase."
     ],
-    skills: ["C", "Embedded Systems", "Jenkins", "Full-stack", "UI/UX"]
+    skills: ["Java", "Typescript", "Agile Application Development", "Embedded Systems", "Jenkins", "Full-stack", "UI/UX"]
   }
 ];
 

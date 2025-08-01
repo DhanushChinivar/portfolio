@@ -28,7 +28,7 @@ export const Contact = () => {
             </h2>
             <p className="text-lg text-muted-foreground max-w-2xl mx-auto mb-8">
               Feel free to reach out to me for any questions or opportunities! I'm 
-              based in Charlotte, NC, and would love to relocate and explore.
+              based in Melbourne, VIC, and would love to relocate and explore.
             </p>
             
             {/* Contact Info */}
@@ -45,7 +45,7 @@ export const Contact = () => {
                 className="flex items-center gap-2 text-primary hover:text-primary/80 transition-colors"
               >
                 <Phone className="w-5 h-5" />
-                <span>Phone: +1 (704) 930-3847</span>
+                <span>Phone: +61 422819656</span>
               </a>
             </div>
           </div>
@@ -55,7 +55,7 @@ export const Contact = () => {
         <RevealOnScroll delay={200}>
           <div className="border-t border-border pt-12">
             <div className="text-center mb-8">
-              <h3 className="text-2xl font-bold text-primary mb-6">Dhanush Desai</h3>
+              <h3 className="text-2xl font-bold text-primary mb-6">Dhanush Chinivar</h3>
               
               {/* Navigation Links */}
               <div className="flex flex-wrap justify-center gap-6 mb-8">

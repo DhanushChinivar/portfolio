@@ -125,9 +125,11 @@ const EnhancedSkillsSection = () => {
     <div className="mt-24 max-w-7xl mx-auto">
       <RevealOnScroll delay={500}>
         <div className="text-center mb-16">
-          <h3 className="text-4xl md:text-5xl font-bold text-transparent bg-clip-text bg-gradient-to-r from-blue-400 to-purple-600 mb-4">
-            Technical Arsenal
-          </h3>
+          <h2 className="text-4xl md:text-5xl font-bold mb-4 text-center">
+            <span className="bg-gradient-to-r from-primary via-blue-400 to-cyan-400 bg-clip-text text-transparent">
+               Technical Arsenal
+            </span>
+          </h2>
           <p className="text-muted-foreground text-lg max-w-2xl mx-auto">
             A comprehensive overview of my technical expertise and professional capabilities
           </p>
@@ -185,42 +187,11 @@ const EnhancedSkillsSection = () => {
                     </div>
                   ))}
                 </div>
-
-                {/* Category Stats */}
-                <div className="mt-6 pt-4 border-t border-muted">
-                  <div className="flex justify-center text-sm text-muted-foreground">
-                    <span>{data.skills.length} Technologies</span>
-                  </div>
-                </div>
               </div>
             </div>
           </RevealOnScroll>
         ))}
       </div>
-
-      {/* Additional Info Section */}
-      <RevealOnScroll delay={900}>
-        <div className="mt-16 text-center">
-          <div className="bg-gradient-to-r from-purple-900/30 to-blue-900/30 rounded-2xl p-8 border border-purple-500/30 backdrop-blur-sm">
-            <h3 className="text-2xl font-bold text-foreground mb-4">Always Learning</h3>
-            <p className="text-muted-foreground max-w-3xl mx-auto">
-              Technology evolves rapidly, and so do I. Currently exploring AI/ML integration, 
-              advanced cloud architectures, and modern DevOps practices to stay at the forefront of development.
-            </p>
-          </div>
-        </div>
-      </RevealOnScroll>
-
-      {/* Interactive Legend */}
-      <RevealOnScroll delay={1000}>
-        <div className="mt-8 flex justify-center">
-          <div className="bg-background/50 rounded-lg p-4 border border-muted backdrop-blur-sm">
-            <p className="text-muted-foreground text-sm text-center">
-              💡 Hover over skills to see detailed descriptions and proficiency levels
-            </p>
-          </div>
-        </div>
-      </RevealOnScroll>
     </div>
   );
 };
