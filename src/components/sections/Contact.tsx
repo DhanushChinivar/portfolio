@@ -24,7 +24,7 @@ export const Contact = () => {
           {/* Contact Header */}
           <div className="text-center mb-16">
             <h2 className="text-4xl md:text-5xl font-bold mb-6 text-foreground">
-              Contact Dhanush Gururaj Hanamesh Desai
+              Contact Dhanush Chinivar
             </h2>
             <p className="text-lg text-muted-foreground max-w-2xl mx-auto mb-8">
               Feel free to reach out to me for any questions or opportunities! I'm 
@@ -34,11 +34,11 @@ export const Contact = () => {
             {/* Contact Info */}
             <div className="flex flex-col md:flex-row items-center justify-center gap-6 mb-12">
               <a 
-                href="mailto:desaigururaj06@gmail.com" 
+                href="mailto:dhanushchinivar.com" 
                 className="flex items-center gap-2 text-primary hover:text-primary/80 transition-colors"
               >
                 <Mail className="w-5 h-5" />
-                <span>Email: desaigururaj06@gmail.com</span>
+                <span>Email: dhanushchinivar.com</span>
               </a>
               <a 
                 href="tel:+17049303847" 
@@ -89,7 +89,7 @@ export const Contact = () => {
 
               {/* Copyright */}
               <p className="text-sm text-muted-foreground">
-                © 2024 Dhanush Gururaj Hanamesh Desai. All rights reserved.
+                © 2025 Dhanush Chinivar. All rights reserved.
               </p>
             </div>
           </div>

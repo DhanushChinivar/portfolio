@@ -1,6 +1,7 @@
 import { RevealOnScroll } from "../RevealOnScroll";
 import { useState, useEffect } from "react";
 import { Button } from "../ui/button";
+import profilePic from '../../assets/profile.png';
 
 const EnhancedSkillsSection = () => {
   const [hoveredSkill, setHoveredSkill] = useState<string | null>(null);
@@ -311,7 +312,7 @@ export const About = () => {
                 <div className="relative w-80 h-80 rounded-full overflow-hidden border-4 border-gradient-to-r from-primary to-cyan-400 p-1 bg-gradient-to-r from-primary to-cyan-400">
                   <div className="w-full h-full rounded-full overflow-hidden bg-muted">
                     <img 
-                      src="/lovable-uploads/60e060ff-17ed-43e8-a578-fe0ce41eb1f9.png"
+                      src={profilePic}
                       alt="Dhanush Chinivar"
                       className="w-full h-full object-cover hover:scale-110 transition-transform duration-500"
                     />
