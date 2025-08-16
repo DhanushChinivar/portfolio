@@ -8,7 +8,7 @@ export const Education = () => {
         <RevealOnScroll>
           <h2 className="text-4xl md:text-5xl font-bold mb-16 text-center">
             <span className="bg-gradient-to-r from-primary via-blue-400 to-cyan-400 bg-clip-text text-transparent">
-              Education & Work Experience
+              Education
             </span>
           </h2>
         </RevealOnScroll>

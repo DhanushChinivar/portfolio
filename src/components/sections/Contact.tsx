@@ -34,11 +34,11 @@ export const Contact = () => {
             {/* Contact Info */}
             <div className="flex flex-col md:flex-row items-center justify-center gap-6 mb-12">
               <a 
-                href="mailto:dhanushchinivar.com" 
+                href="mailto:dhanushchinivar@gmail.com" 
                 className="flex items-center gap-2 text-primary hover:text-primary/80 transition-colors"
               >
                 <Mail className="w-5 h-5" />
-                <span>Email: dhanushchinivar.com</span>
+                <span>Email: dhanushchinivar@gmail.com</span>
               </a>
               <a 
                 href="tel:+17049303847" 
