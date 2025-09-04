@@ -257,14 +257,21 @@ export const About = () => {
               Passionate Software Developer participating in the complete product development life cycle of successfully launched applications
               </p>
 
-              <div className="pt-4">
-                <Button 
-                  size="lg" 
-                  className="bg-gradient-to-r from-primary to-cyan-500 hover:from-primary/90 hover:to-cyan-500/90 text-white px-8 py-6 text-lg rounded-full shadow-lg hover:shadow-xl transition-all duration-300 transform hover:scale-105"
-                >
-                  Check Resume
-                </Button>
-              </div>
+<div className="pt-4">
+  <a 
+    href="/DhanushChinivar_Resume.pdf" 
+    target="_blank" 
+    rel="noopener noreferrer"
+  >
+    <Button 
+      size="lg" 
+      className="bg-gradient-to-r from-primary to-cyan-500 hover:from-primary/90 hover:to-cyan-500/90 text-white px-8 py-6 text-lg rounded-full shadow-lg hover:shadow-xl transition-all duration-300 transform hover:scale-105"
+    >
+      Check Resume
+    </Button>
+  </a>
+</div>
+
             </div>
           </RevealOnScroll>
 
