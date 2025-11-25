@@ -39,6 +39,16 @@ const experiences: ExperienceItem[] = [
       "Automated batch scripts to cut development time by 85%.",
       "Revamped UI for ADC, Pin Manager, and PTG modules with a 200% usage increase."
     ],
+    skills: ["Java", "Typescript", "Agile Application Development", "Embedded Systems", "Jenkins", "React", "Node.js",]
+  },
+    {
+    title: "Software Engineer Intern",
+    company: "Microchip Technology",
+    period: "2022 — 2022",
+    description: [
+      "Executed high-priority bug fixes and feature enhancements, contributing to on-time delivery of a major device release.",
+      "Leveraged algorithm development, debugging, technical analysis documentation, code review, unit testing."
+    ],
     skills: ["Java", "Typescript", "Agile Application Development", "Embedded Systems", "Jenkins", "Full-stack", "UI/UX"]
   }
 ];
