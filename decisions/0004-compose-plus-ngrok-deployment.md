@@ -18,7 +18,7 @@ One `docker-compose.yml` with two services:
 ## Consequences
 
 - Public URL comes from `curl localhost:4040/api/tunnels` or the ngrok logs.
-- Free tier: the URL **changes on every ngrok restart** and visitors see a one-click browser interstitial. Accepted for now; a reserved domain would fix both.
+- The tunnel is pinned via `--url` to the account's free static dev domain (`footgear-unframed-sequel.ngrok-free.dev`), so the public URL is **stable across restarts**. Free tier still shows visitors a one-click browser interstitial.
 - The exact env var name `NGROK_AUTHTOKEN` is what the v3 agent reads — a wrong name causes a silent restart loop (`docker compose logs ngrok` to diagnose).
 - The tunnel target is `web:80`, not localhost — localhost inside the ngrok container is the ngrok container itself.
 - Phase 2's `api` service and Phase 3's `db` slot into the same compose file (stubs are pre-commented there).

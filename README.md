@@ -17,9 +17,9 @@ docker compose up -d
 ```
 
 - Local: http://localhost:8080
-- Public URL: `curl -s http://localhost:4040/api/tunnels | jq -r '.tunnels[0].public_url'` (or open http://localhost:4040)
+- Public: https://footgear-unframed-sequel.ngrok-free.dev (the account's static dev domain, pinned via `--url` in docker-compose.yml — stable across restarts)
 
-Free-tier ngrok notes: the public URL **changes every time the ngrok container restarts**, and visitors see a one-click interstitial page first. `curl` tests of the public URL need the header `ngrok-skip-browser-warning: true`.
+Free-tier ngrok note: visitors see a one-click interstitial page first. `curl` tests of the public URL need the header `ngrok-skip-browser-warning: true`.
 
 ## Editing content
 

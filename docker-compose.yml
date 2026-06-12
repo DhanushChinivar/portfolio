@@ -13,8 +13,9 @@ services:
     image: ngrok/ngrok:3
     container_name: portfolio-ngrok
     # Tunnel target is the compose DNS name — localhost here would be the
-    # ngrok container itself (ADR-0004).
-    command: ["http", "web:80"]
+    # ngrok container itself (ADR-0004). --url pins the free static dev
+    # domain so the public URL survives restarts.
+    command: ["http", "--url=footgear-unframed-sequel.ngrok-free.dev", "web:80"]
     environment:
       - NGROK_AUTHTOKEN=${NGROK_AUTHTOKEN}
     volumes:
