@@ -1,0 +1,17 @@
+{
+  "hooks": {
+    "PostToolUse": [
+      {
+        "matcher": "Write|Edit",
+        "hooks": [
+          {
+            "type": "agent",
+            "prompt": "A file in this repo was just changed by a tool. Hook input JSON: $ARGUMENTS\n\nExtract the changed file path from tool_input.file_path. If the file is not reviewable code (skip: *.md, tasks.md, anything under decisions/ or .claude/, .env*, .gitignore, images/binary assets), reply that no review is needed and approve. Otherwise: read the review instructions in .claude/agents/code-reviewer.md and review the changed file exactly as they specify, reading related files for context where needed. Report findings in the specified format. Only block (fail) for critical findings; approve otherwise.",
+            "timeout": 120,
+            "statusMessage": "code-reviewer: reviewing changed file…"
+          }
+        ]
+      }
+    ]
+  }
+}
