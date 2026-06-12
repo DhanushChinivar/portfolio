@@ -1,0 +1,5 @@
+Placeholder for resume.pdf.
+
+Drop your real resume into this folder as resume.pdf, then update
+"resumeUrl" in frontend/data/profile.json to "assets/resume.pdf"
+(removing the PLACEHOLDER: prefix).

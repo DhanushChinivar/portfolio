@@ -1,0 +1,71 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Dhanush Chinivar — Software Developer</title>
+  <meta name="description" content="Portfolio of Dhanush Chinivar, software developer in Melbourne — AI/RAG pipelines, TypeScript web apps, and more." />
+  <meta property="og:title" content="Dhanush Chinivar — Software Developer" />
+  <meta property="og:description" content="Projects, skills, and experience of Dhanush Chinivar." />
+  <meta property="og:type" content="website" />
+  <link rel="icon" type="image/svg+xml" href="assets/favicon.svg" />
+  <link rel="stylesheet" href="css/styles.css" />
+</head>
+<body>
+  <header class="site-header">
+    <nav class="nav container">
+      <a class="nav-brand" href="#about">dhanush<span class="accent">.dev</span></a>
+      <ul class="nav-links">
+        <li><a href="#about">About</a></li>
+        <li><a href="#skills">Skills</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#experience">Experience</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <section id="about" class="section hero container">
+      <div id="hero-content"><!-- populated by render.js --></div>
+    </section>
+
+    <section id="skills" class="section container">
+      <h2><span class="accent">#</span> Skills</h2>
+      <div id="skills-list"><!-- populated by render.js --></div>
+    </section>
+
+    <section id="projects" class="section container">
+      <h2><span class="accent">#</span> Projects</h2>
+      <div id="projects-grid" class="projects-grid"><!-- populated by render.js --></div>
+    </section>
+
+    <section id="experience" class="section container">
+      <h2><span class="accent">#</span> Experience</h2>
+      <div id="experience-timeline"><!-- populated by render.js --></div>
+    </section>
+
+    <section id="contact" class="section container">
+      <h2><span class="accent">#</span> Contact</h2>
+      <div id="contact-content"><!-- populated by render.js --></div>
+      <!-- Phase 2: this form gets enabled and wired to POST /api/contact -->
+      <form id="contact-form" class="contact-form" hidden>
+        <input type="text" name="name" placeholder="Your name" required />
+        <input type="email" name="email" placeholder="Your email" required />
+        <textarea name="message" placeholder="Your message" rows="4" required></textarea>
+        <button type="submit">Send</button>
+      </form>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <p class="container">© <span id="year"></span> Dhanush Chinivar · built with plain HTML/CSS/JS, served by nginx</p>
+  </footer>
+
+  <noscript>
+    <p class="container">This site loads its content with JavaScript. Please enable JavaScript, or browse the projects directly on <a href="https://github.com/DhanushChinivar">GitHub</a>.</p>
+  </noscript>
+
+  <script type="module" src="js/main.js"></script>
+</body>
+</html>

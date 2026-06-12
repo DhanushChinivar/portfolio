@@ -1,0 +1,40 @@
+{
+  "name": "Dhanush Chinivar",
+  "tagline": "Passionate Software Developer",
+  "bio": "Passionate software developer based in Melbourne, participating in the complete product development life cycle of successfully launched applications — from AI/RAG pipelines in Python to full-stack TypeScript web apps.",
+  "location": "Melbourne, Australia",
+  "avatarUrl": "https://avatars.githubusercontent.com/u/73783265?v=4",
+  "links": {
+    "github": "https://github.com/DhanushChinivar",
+    "linkedin": "PLACEHOLDER: https://linkedin.com/in/your-handle",
+    "email": "PLACEHOLDER: you@example.com"
+  },
+  "resumeUrl": "PLACEHOLDER: assets/resume.pdf",
+  "skills": [
+    { "category": "Languages", "items": ["Python", "TypeScript", "JavaScript", "Java", "SQL"] },
+    { "category": "AI / Data", "items": ["RAG pipelines", "Qdrant", "CLIP / BGE embeddings", "Claude API", "LLM agents"] },
+    { "category": "Web", "items": ["React", "Next.js", "Node.js", "HTML / CSS", "REST APIs"] },
+    { "category": "Tooling", "items": ["Docker", "Git", "nginx", "Jenkins"] }
+  ],
+  "experience": [
+    {
+      "company": "PLACEHOLDER: Company Name",
+      "role": "PLACEHOLDER: Job Title",
+      "start": "PLACEHOLDER: 2024-01",
+      "end": null,
+      "location": "PLACEHOLDER: City, Country",
+      "summary": "PLACEHOLDER: One-line summary of what you did in this role.",
+      "highlights": [
+        "PLACEHOLDER: A measurable achievement or responsibility."
+      ]
+    }
+  ],
+  "education": [
+    {
+      "institution": "PLACEHOLDER: University Name",
+      "degree": "PLACEHOLDER: Degree Name",
+      "start": "PLACEHOLDER: 2023",
+      "end": "PLACEHOLDER: 2025"
+    }
+  ]
+}

@@ -12,33 +12,34 @@ Significant decisions are recorded in [`decisions/`](decisions/).
 - [x] First commit: scaffold + process files
 
 ### Data layer
-- [ ] `frontend/data/profile.json` — real GitHub-derived values; `PLACEHOLDER:` strings for email, LinkedIn, resume, experience, education
-- [ ] `frontend/data/projects.json` — 8 curated projects (no forks, no uni repos)
-- [ ] Validate both with `jq`
+- [x] `frontend/data/profile.json` — real GitHub-derived values; `PLACEHOLDER:` strings for email, LinkedIn, resume, experience, education
+- [x] `frontend/data/projects.json` — 8 curated projects (no forks, no uni repos)
+- [x] Validate both with `jq`
 
 ### Frontend
-- [ ] `frontend/index.html` — single page: nav, hero/about, skills, projects, experience, contact, footer
-- [ ] `frontend/css/styles.css` — dark developer theme, CSS custom properties, responsive
-- [ ] `frontend/js/api.js` — data-provider abstraction (`DATA_SOURCE` flag, Phase 2 seam)
-- [ ] `frontend/js/render.js` — pure DOM renderers, `PLACEHOLDER:` detection
-- [ ] `frontend/js/main.js` — fetch + render + error state + nav behavior
-- [ ] `frontend/assets/favicon.svg`
-- [ ] Sanity check via `python3 -m http.server` in `frontend/`
+- [x] `frontend/index.html` — single page: nav, hero/about, skills, projects, experience, contact, footer
+- [x] `frontend/css/styles.css` — dark developer theme, CSS custom properties, responsive
+- [x] `frontend/js/api.js` — data-provider abstraction (`DATA_SOURCE` flag, Phase 2 seam)
+- [x] `frontend/js/render.js` — pure DOM renderers, `PLACEHOLDER:` detection
+- [x] `frontend/js/main.js` — fetch + render + error state + nav behavior
+- [x] `frontend/assets/favicon.svg`
+- [x] Sanity check via `python3 -m http.server` in `frontend/`
 
 ### Docker / nginx / ngrok
-- [ ] `deploy/nginx/default.conf` — gzip, cache headers, commented Phase 2 `/api/` block
-- [ ] `deploy/ngrok/ngrok.yml` — `web_addr: 0.0.0.0:4040`, log to stdout
-- [ ] `docker-compose.yml` — `web` (nginx) + `ngrok` services, Phase 2/3 stubs commented
-- [ ] `.env.example` — `NGROK_AUTHTOKEN` template (user pastes real token into `.env`)
+- [x] `deploy/nginx/default.conf` — gzip, cache headers, commented Phase 2 `/api/` block
+- [x] `deploy/ngrok/ngrok.yml` — `web_addr: 0.0.0.0:4040`, log to stdout
+- [x] `docker-compose.yml` — `web` (nginx) + `ngrok` services, Phase 2/3 stubs commented
+- [x] `.env.example` — `NGROK_AUTHTOKEN` template (user pastes real token into `.env`)
 
 ### Verification & docs
-- [ ] `docker compose up -d` — both containers healthy
-- [ ] curl checks: 200s, cache headers, gzip, JSON served, infra configs NOT served
+- [x] `docker compose up -d` — nginx healthy (ngrok pending real authtoken in `.env`)
+- [x] curl checks: 200s, cache headers, gzip, JSON served, infra configs NOT served
+- [ ] Paste real `NGROK_AUTHTOKEN` into `.env`, `docker compose up -d ngrok` *(user)*
 - [ ] Get public URL from `http://localhost:4040/api/tunnels`, verify 200 through tunnel
 - [ ] Browser pass: all sections render, 8 project cards, placeholders visibly marked, responsive
-- [ ] `README.md` — quickstart, ngrok setup, troubleshooting
-- [ ] Update `CLAUDE.md` — run commands + architecture
-- [ ] Final commit
+- [x] `README.md` — quickstart, ngrok setup, troubleshooting
+- [x] Update `CLAUDE.md` — run commands + architecture
+- [x] Final commit
 
 ### Post-launch (user)
 - [ ] Fill in `PLACEHOLDER:` values in `frontend/data/profile.json` (email, LinkedIn, experience, education)

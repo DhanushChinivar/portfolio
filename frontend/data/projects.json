@@ -1,0 +1,92 @@
+{
+  "projects": [
+    {
+      "id": "multimodal-rag",
+      "name": "Multimodal RAG",
+      "description": "Multimodal retrieval-augmented generation pipeline: PDF input, BGE and CLIP embeddings, Qdrant vector database with dual-index search, and Claude for multimodal answer generation.",
+      "tech": ["Python", "CLIP", "BGE", "Qdrant", "Claude API"],
+      "repoUrl": "https://github.com/DhanushChinivar/multimodal-rag",
+      "liveUrl": null,
+      "image": null,
+      "featured": true,
+      "order": 1
+    },
+    {
+      "id": "stocks-app",
+      "name": "Stocks App",
+      "description": "Track real-time stock prices, get personalised alerts, and explore detailed company insights.",
+      "tech": ["TypeScript", "Next.js"],
+      "repoUrl": "https://github.com/DhanushChinivar/stocks_app",
+      "liveUrl": null,
+      "image": null,
+      "featured": true,
+      "order": 2
+    },
+    {
+      "id": "bi-agent",
+      "name": "BI Agent",
+      "description": "AI-powered business intelligence agent that turns natural-language questions into data insights.",
+      "tech": ["Python", "LLM agents"],
+      "repoUrl": "https://github.com/DhanushChinivar/BI-agent",
+      "liveUrl": null,
+      "image": null,
+      "featured": true,
+      "order": 3
+    },
+    {
+      "id": "mealplanner",
+      "name": "Meal Planner",
+      "description": "Plan weekly meals and organise recipes with a clean, type-safe web app.",
+      "tech": ["TypeScript"],
+      "repoUrl": "https://github.com/DhanushChinivar/mealplanner",
+      "liveUrl": null,
+      "image": null,
+      "featured": true,
+      "order": 4
+    },
+    {
+      "id": "todolist",
+      "name": "Todo List",
+      "description": "Simple, focused todo list application built with React.",
+      "tech": ["React", "JavaScript"],
+      "repoUrl": "https://github.com/DhanushChinivar/todolist",
+      "liveUrl": null,
+      "image": null,
+      "featured": true,
+      "order": 5
+    },
+    {
+      "id": "notes-app",
+      "name": "Notes App",
+      "description": "Lightweight note-taking app for capturing and organising ideas in the browser.",
+      "tech": ["JavaScript"],
+      "repoUrl": "https://github.com/DhanushChinivar/notes-app",
+      "liveUrl": null,
+      "image": null,
+      "featured": true,
+      "order": 6
+    },
+    {
+      "id": "spacenews",
+      "name": "Space News",
+      "description": "Browse the latest spaceflight news pulled from a public space news API.",
+      "tech": ["JavaScript", "REST APIs"],
+      "repoUrl": "https://github.com/DhanushChinivar/spacenews",
+      "liveUrl": null,
+      "image": null,
+      "featured": true,
+      "order": 7
+    },
+    {
+      "id": "quizzapp",
+      "name": "Quiz App",
+      "description": "Interactive quiz application with scoring and instant feedback.",
+      "tech": ["JavaScript"],
+      "repoUrl": "https://github.com/DhanushChinivar/quizzapp",
+      "liveUrl": null,
+      "image": null,
+      "featured": true,
+      "order": 8
+    }
+  ]
+}

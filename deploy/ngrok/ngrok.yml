@@ -1,0 +1,5 @@
+version: "2"
+# Bind the inspection UI/API to all interfaces so the host port-map
+# (4040:4040) works — default binds to container-localhost only.
+web_addr: 0.0.0.0:4040
+log: stdout
