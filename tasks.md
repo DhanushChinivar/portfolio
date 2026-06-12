@@ -34,8 +34,8 @@ Significant decisions are recorded in [`decisions/`](decisions/).
 ### Verification & docs
 - [x] `docker compose up -d` — nginx healthy (ngrok pending real authtoken in `.env`)
 - [x] curl checks: 200s, cache headers, gzip, JSON served, infra configs NOT served
-- [ ] Paste real `NGROK_AUTHTOKEN` into `.env`, `docker compose up -d ngrok` *(user)*
-- [ ] Get public URL from `http://localhost:4040/api/tunnels`, verify 200 through tunnel
+- [x] Real `NGROK_AUTHTOKEN` in `.env` (minted via ngrok API from user's API key), `docker compose up -d ngrok`
+- [x] Get public URL from `http://localhost:4040/api/tunnels`, verify 200 through tunnel
 - [ ] Browser pass: all sections render, 8 project cards, placeholders visibly marked, responsive
 - [x] `README.md` — quickstart, ngrok setup, troubleshooting
 - [x] Update `CLAUDE.md` — run commands + architecture
